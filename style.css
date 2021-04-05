@@ -12,6 +12,7 @@ h3 {
     background-attachment: fixed;
     background-position: bottom center;
     background-size: cover;
+    height:300px;
 }
 
 .fullbody {
