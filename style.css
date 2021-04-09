@@ -6,13 +6,27 @@ h3 {
     text-indent: 10px;
   }
 
-.header_front {
-  background-image:url('https://www.chicagotribune.com/resizer/kGucUpvWJg6K8sTIXQ9GsVMa38o=/1200x0/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/MH2JL45SJRCVNBJRSYZKCSOXLY.jpg');
+/*.header_front {
+  background-image:url('https://upload.wikimedia.org/wikipedia/commons/c/c9/Clocktower06sw2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: bottom center;
+    background-position: center;
     background-size: cover;
-    height:300px;
+}*/
+
+.header_front {
+  background-image: url('https://www.chicagotribune.com/resizer/kGucUpvWJg6K8sTIXQ9GsVMa38o=/1200x0/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/MH2JL45SJRCVNBJRSYZKCSOXLY.jpg');
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:225px;
+}
+
+#TextThumbnail {
+  display: inline-block;
+  margin-top:50px;
+  padding: 0;
 }
 
 .fullbody {
@@ -93,7 +107,7 @@ h1.header {
     left: 10px; 
 }
 
-h1 {
+h1.shadow {
     text-shadow:2px 2px #4d7073;
 }
 
