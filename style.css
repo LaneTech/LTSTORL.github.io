@@ -65,15 +65,13 @@ p {
   margin-left:10px;
 }
 
-h4:hover, p:hover {
+p:hover {
     color: #333104;
     text-indent: 10px;
 }
 
 h4 {
     font-family: 'PT Sans', sans-serif;
-    font-size:20px;
-    color:#93f099;
     transition: color,text-indent 0.5s ease-out;  
     text-indent: 5px;
     margin-left:10px;
@@ -137,6 +135,14 @@ transform: scale(1.05);
   height:100px;
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #247040;
+    border-color: #495057;
+}
+
 
 /* Style the navbar links */
 div.header a {
