@@ -22,15 +22,18 @@ h3 {
 
 .header_front {
   background-image: url('pictures/lane.jpeg');
-  background-position:center;
+  background-position:bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height:225px;
+  height:250px;
 }
 
 #TextThumbnail {
   display: inline-block;
+}
+h2#TextThumbnail{
+  color:#bac8d2;
 }
 
 .fullbody {
