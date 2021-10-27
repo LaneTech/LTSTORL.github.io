@@ -21,19 +21,21 @@ h3 {
 }
 
 .header_front {
-  background-image: url('pictures/lane.jpeg');
+  background-image: url('download.jpg');
   background-position:bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  height:250px;
+  background-attachment:fixed;
+  height:300px;
+  padding-top:40px;
+  padding-left:40px;
 }
 
 #TextThumbnail {
   display: inline-block;
 }
 h2#TextThumbnail{
-  color:#d3dce2;
+  color:#fefefe;
 }
 
 .fullbody {
