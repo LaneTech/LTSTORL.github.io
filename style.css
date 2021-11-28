@@ -20,7 +20,7 @@ h3 {
   opacity: 0.5;
 }
 
-.header_front {
+/*.header_front {
   background-image: url('download.jpg');
   background-position:bottom;
   background-size: cover;
@@ -29,7 +29,21 @@ h3 {
   height:300px;
   padding-top:40px;
   padding-left:40px;
+}*/
+
+.header_front {
+  background-image: url('pictures/lane.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 400px;
 }
+
+.backgroundFillerColor {
+  background-color:#f8f5af;
+}
+
 
 #TextThumbnail {
   display: inline-block;
@@ -45,7 +59,7 @@ h2#TextThumbnail{
 
 body {
   font-family:"Castoro";
-  background-color:#f8f5af;
+  background-color: #f8f5af;
 }
 
 h1.DivideText {
@@ -77,10 +91,10 @@ p:hover {
 }
 
 h4 {
-    font-family: 'PT Sans', sans-serif;
-    transition: color,text-indent 0.5s ease-out;  
-    text-indent: 5px;
-    margin-left:10px;
+  font-family: 'PT Sans', sans-serif;
+  transition: color,text-indent 0.5s ease-out;  
+  text-indent: 5px;
+  margin-left:10px;
 }
 
 .quote {
@@ -98,7 +112,7 @@ a {
 }
 
 a.nav-link {
-  font-size:22px;
+  font-size:20px;
 }
 
 
@@ -119,9 +133,9 @@ h1.shadow {
 }
 
 #centerimage {
-display:Block;
-margin-left:Auto;
-margin-right:Auto;       
+  display:Block;
+  margin-left:Auto;
+  margin-right:Auto;       
 }
 
 
