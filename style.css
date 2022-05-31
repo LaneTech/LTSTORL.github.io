@@ -46,10 +46,12 @@ h3 {
 
 
 #TextThumbnail {
-  display: inline-block;
+ /* display: inline-block;*/
+  text-align: center;
 }
 h2#TextThumbnail{
   color:#fefefe;
+  text-align: center;
 }
 
 .fullbody {
@@ -123,9 +125,9 @@ a.nav-link {
 
 
 h1.header {
-    position: relative;
-    top: 18px;
-    left: 10px; 
+  position: relative;
+  top: 18px;
+  left: 10px; 
 }
 
 h1.shadow {
